@@ -11,6 +11,38 @@ type Quizzes = {
 };
 
 export const quizzes: Quizzes = {
+  "boeing747-test1": {
+    iconURL: "https://i.imgur.com/CmR8h32.jpg",
+    name: "747 Airlines ✈️🌐",
+    quizzes: [
+      {
+        question:
+          "How many months did it take to design and build the Boeing 747?",
+        option1: "28",
+        option2: "1",
+        option3: "60",
+        option4: "100",
+        answer: 1,
+      },
+      {
+        question: "What has never appeared at Japanese baggage claim?",
+        option1: "Sushi",
+        option2: "Real World $CRASH",
+        option3: "Udon",
+        option4: "Momotaro, Peach Boy defeats ogres.",
+        answer: 2,
+      },
+      {
+        question:
+          "Who is the top minter of 747 Airlines as of May 3rd, 9:00 AM PST?",
+        option1: "apollo↑.eth",
+        option2: "pichi.eth",
+        option3: "zeitgeistmint.eth",
+        option4: "jameecornelia.eth",
+        answer: 3,
+      },
+    ],
+  },
   starkcity: {
     iconURL:
       "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=400,height=400/event-covers/qk/5b1e17d6-3c78-4186-b3ec-464a8255909f",
